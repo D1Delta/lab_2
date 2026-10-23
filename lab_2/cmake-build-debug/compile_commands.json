@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/mrros/CLionProjects/lab_2/cmake-build-debug",
+  "command": "\"D:\\CLion 2026.2.3.1\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++26 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\untitled1.dir\\main.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\untitled1.dir\\main.cpp.obj -c C:\\Users\\mrros\\CLionProjects\\lab_2\\main.cpp",
+  "file": "C:/Users/mrros/CLionProjects/lab_2/main.cpp",
+  "output": "C:/Users/mrros/CLionProjects/lab_2/cmake-build-debug/CMakeFiles/untitled1.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/mrros/CLionProjects/lab_2/cmake-build-debug",
+  "command": "\"D:\\CLion 2026.2.3.1\\bin\\mingw\\bin\\c++.exe\" -g -std=gnu++26 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles\\untitled1.dir\\header.cpp.obj.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles\\untitled1.dir\\header.cpp.obj -c C:\\Users\\mrros\\CLionProjects\\lab_2\\header.cpp",
+  "file": "C:/Users/mrros/CLionProjects/lab_2/header.cpp",
+  "output": "C:/Users/mrros/CLionProjects/lab_2/cmake-build-debug/CMakeFiles/untitled1.dir/header.cpp.obj"
+}
+]
