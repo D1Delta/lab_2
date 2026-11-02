@@ -1,9 +1,11 @@
-#include <iostream>
-#include <windows.h>
 #include "header.h"
 
+#include <windows.h>
+#include <iostream>
+
 int main() {
-  setlocale(LC_ALL, "Russian");
+  SetConsoleOutputCP(CP_UTF8);
+  SetConsoleCP(CP_UTF8);
 
   while (true) {
     std::cout << "\n=============================================\n";
@@ -21,8 +23,14 @@ int main() {
     std::cout << "10. Задание 10 (Задача 2) - Суммарная длина слов (map)\n";
     std::cout << " 0. Выход\n";
     std::cout << "---------------------------------------------\n";
+    std::cout << "Выберите номер задания (0-10): ";
 
-    int choice = GetValidInt("Выберите номер задания (0-10): ");
+    int choice = -1;
+    while (!(std::cin >> choice) || choice < 0 || choice > 10) {
+      std::cout << "Неверный ввод! Введите число от 0 до 10: ";
+      std::cin.clear();
+      std::cin.ignore(10000, '\n');
+    }
 
     switch (choice) {
       case 1:
@@ -59,7 +67,6 @@ int main() {
         std::cout << "Завершение работы программы.\n";
         return 0;
       default:
-        std::cout << "Неверный номер задания! Выберите от 0 до 10.\n";
         break;
     }
   }
